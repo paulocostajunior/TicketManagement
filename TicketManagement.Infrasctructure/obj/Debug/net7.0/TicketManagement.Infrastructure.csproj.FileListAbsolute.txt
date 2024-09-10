@@ -1,0 +1,17 @@
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/TicketManagement.Infrastructure.csproj.AssemblyReference.cache
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/TicketManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/TicketManagement.Infrastructure.AssemblyInfoInputs.cache
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/TicketManagement.Infrastructure.AssemblyInfo.cs
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/TicketManagement.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/bin/Debug/net7.0/TicketManagement.Infrastructure.deps.json
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/bin/Debug/net7.0/TicketManagement.Infrastructure.dll
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/bin/Debug/net7.0/TicketManagement.Infrastructure.pdb
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/bin/Debug/net7.0/TicketManagement.Application.dll
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/bin/Debug/net7.0/TicketManagement.Domain.dll
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/bin/Debug/net7.0/TicketManagement.Application.pdb
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/bin/Debug/net7.0/TicketManagement.Domain.pdb
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/TicketManagement.Infrastructure.csproj.CopyComplete
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/TicketManagement.Infrastructure.dll
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/refint/TicketManagement.Infrastructure.dll
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/TicketManagement.Infrastructure.pdb
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/obj/Debug/net7.0/ref/TicketManagement.Infrastructure.dll

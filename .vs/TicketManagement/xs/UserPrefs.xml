@@ -1,0 +1,83 @@
+﻿<Properties StartupConfiguration="{86AFEFAF-A26A-44FF-8CF7-BFB2B7E11703}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <DisabledProjects>
+    <String>TicketManagement.Domain/Test/Test.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TicketManagement.Application/ApplicationServiceRegistration.cs">
+    <Files>
+      <File FileName="TicketManagement.Api/Program.cs" Line="8" Column="11" />
+      <File FileName="TicketManagement.Persistence/GloboTicketDbContext.cs" Line="9" Column="98" />
+      <File FileName="TicketManagement.Persistence/PersistenceServiceRegistration.cs" Line="14" Column="116" />
+      <File FileName="TicketManagement.Api/appsettings.json" Line="3" Column="49" />
+      <File FileName="TicketManagement.Api/appsettings.Development.json" Line="18" Column="2" />
+      <File FileName="TicketManagement.Persistence/Configurations/EventConfiguration.cs" Line="14" Column="33" />
+      <File FileName="TicketManagement.Persistence/Repositories/BaseRepository.cs" Line="1" Column="1" />
+      <File FileName="TicketManagement.Persistence/Repositories/EventRepository.cs" Line="1" Column="1" />
+      <File FileName="TicketManagement.Persistence/Repositories/CategoryRepository.cs" Line="1" Column="1" />
+      <File FileName="TicketManagement.Persistence/Repositories/OrderRepository.cs" Line="1" Column="1" />
+      <File FileName="TicketManagement.Api/StartupExtensions.cs" Line="28" Column="46" />
+      <File FileName="TicketManagement.Infrasctructure/InfrastructureServiceRegistration.cs" Line="1" Column="1" />
+      <File FileName="TicketManagement.Application/ApplicationServiceRegistration.cs" Line="12" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TicketManagement" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="API" expanded="True">
+                <Node name="TicketManagement.Api" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Core" expanded="True">
+                <Node name="TicketManagement.Application" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="PackageDependencies" expanded="True" />
+                  </Node>
+                  <Node name="Features" expanded="True">
+                    <Node name="Categories" expanded="True">
+                      <Node name="Commands" expanded="True">
+                        <Node name="CreateCategory" expanded="True" />
+                      </Node>
+                      <Node name="Queries" expanded="True">
+                        <Node name="GetCategoriesListWithEvents" expanded="True" />
+                      </Node>
+                    </Node>
+                    <Node name="Events" expanded="True">
+                      <Node name="Commands" expanded="True">
+                        <Node name="CreateEvent" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                  <Node name="ApplicationServiceRegistration.cs" selected="True" />
+                </Node>
+                <Node name="TicketManagement.Domain" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="FrameworkReferences" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="TicketManagement.Infrastructure" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="PackageDependencies" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="TicketManagement.Persistence" expanded="True">
+                  <Node name="Configurations" expanded="True" />
+                  <Node name="Repositories" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.src.API.TicketManagement.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+</Properties>
