@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace TicketManagement.Application.Features.Events.Queries.GetEventDetail;
+namespace TicketManagement.Application.Features.Events.Queries.GetEventsDetail;
 
 public class GetEventDetailQuery : IRequest<EventDetailVm>
 {

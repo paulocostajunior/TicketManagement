@@ -1,9 +1,10 @@
 ﻿using AutoMapper;
 using TicketManagement.Application.Features.Categories.Commands.CreateCategory;
 using TicketManagement.Application.Features.Categories.Queries.GetCategoriesList;
+using TicketManagement.Application.Features.Categories.Queries.GetCategoriesListWithEvents;
 using TicketManagement.Application.Features.Events.Commands.CreateEvent;
-using TicketManagement.Application.Features.Events.Queries.GetEventDetail;
-using TicketManagement.Application.Features.Events.Queries.GetEventList;
+using TicketManagement.Application.Features.Events.Queries.GetEventsDetail;
+using TicketManagement.Application.Features.Events.Queries.GetEventsList;
 using TicketManagement.Domain.Entities;
 
 namespace TicketManagement.Application;

@@ -3,7 +3,7 @@ using TicketManagement.Application.Contracts.Persistence;
 using TicketManagement.Domain.Entities;
 using MediatR;
 
-namespace TicketManagement.Application.Features.Events.Queries.GetEventList;
+namespace TicketManagement.Application.Features.Events.Queries.GetEventsList;
 
 public class GetEventsListQueryHandler : IRequestHandler<GetEventsListQuery, List<EventListVm>>
 {

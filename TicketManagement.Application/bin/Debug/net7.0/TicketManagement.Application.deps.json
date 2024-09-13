@@ -117,10 +117,7 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "TicketManagement.Domain/1.0.0": {
         "runtime": {
-          "TicketManagement.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "TicketManagement.Domain.dll": {}
         }
       }
     }

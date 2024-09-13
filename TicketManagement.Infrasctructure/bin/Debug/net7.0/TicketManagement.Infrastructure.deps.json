@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "TicketManagement.Infrastructure/1.0.0": {
         "dependencies": {
+          "CsvHelper": "12.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.1",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "7.0.0",
           "SendGrid": "9.29.3",
           "TicketManagement.Application": "1.0.0"
@@ -39,6 +41,18 @@
           }
         }
       },
+      "CsvHelper/12.2.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.TypeExtensions": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CsvHelper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.2.0.0"
+          }
+        }
+      },
       "FluentValidation/11.9.2": {
         "runtime": {
           "lib/net7.0/FluentValidation.dll": {
@@ -50,7 +64,7 @@
       "FluentValidation.DependencyInjectionExtensions/11.9.2": {
         "dependencies": {
           "FluentValidation": "11.9.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
         },
         "runtime": {
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
@@ -62,7 +76,7 @@
       "MediatR/12.4.0": {
         "dependencies": {
           "MediatR.Contracts": "2.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
         },
         "runtime": {
           "lib/net6.0/MediatR.dll": {
@@ -102,17 +116,28 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "8.0.324.11423"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.324.11423"
           }
         }
       },
       "Microsoft.Extensions.Options/7.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
           "Microsoft.Extensions.Primitives": "7.0.0"
         },
         "runtime": {
@@ -126,7 +151,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.Configuration.Binder": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
           "Microsoft.Extensions.Options": "7.0.0",
           "Microsoft.Extensions.Primitives": "7.0.0"
         },
@@ -173,6 +198,7 @@
           }
         }
       },
+      "System.Reflection.TypeExtensions/4.4.0": {},
       "TicketManagement.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
@@ -212,6 +238,13 @@
       "sha512": "sha512-+g/K+Vpe3gGMKGzjslMOdqNlkikScDjWfVvmWTayrDHaG/n2pPmFBMa+jKX1r/h6BDGFdkyRjAuhFE3ykW+r1g==",
       "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
+    },
+    "CsvHelper/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GoDutRb7AOIJG/rQlJKQ4Bwt2pkauOinUv+8KQ5ybUWkz38qZWRw0Cjfh662Thjv8+KYYYNaFPBuf5qr7IvIUw==",
+      "path": "csvhelper/12.2.0",
+      "hashPath": "csvhelper.12.2.0.nupkg.sha512"
     },
     "FluentValidation/11.9.2": {
       "type": "package",
@@ -262,12 +295,19 @@
       "path": "microsoft.extensions.configuration.binder/7.0.0",
       "hashPath": "microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+      "sha512": "sha512-fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RIFgaqoaINxkM2KTOw72dmilDmTrYA0ns2KW4lDz4gZ2+o6IQ894CzmdL3StM2oh7QQq44nCWiqKqc4qUI9Jmg==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/7.0.0": {
       "type": "package",
@@ -310,6 +350,13 @@
       "sha512": "sha512-OblOaKb1enXn+dSp7tsx9yjwV+/BEKM9jFhshIkZTwCk7LuTFTp+wSon6rFzuPiIiTGtvVWQNUw2slHjGktJog==",
       "path": "starkbank-ecdsa/1.3.3",
       "hashPath": "starkbank-ecdsa.1.3.3.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
+      "path": "system.reflection.typeextensions/4.4.0",
+      "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
     },
     "TicketManagement.Application/1.0.0": {
       "type": "project",

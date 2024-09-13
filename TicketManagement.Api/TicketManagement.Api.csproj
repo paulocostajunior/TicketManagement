@@ -24,10 +24,12 @@
 
   <ItemGroup>
     <None Remove="Controllers\" />
+    <None Remove="Utility\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Utility\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TicketManagement.Application\TicketManagement.Application.csproj">

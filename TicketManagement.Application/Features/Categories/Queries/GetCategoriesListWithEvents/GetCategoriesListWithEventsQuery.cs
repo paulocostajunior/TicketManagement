@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace TicketManagement.Application.Features.Categories.Queries.GetCategoriesList;
+namespace TicketManagement.Application.Features.Categories.Queries.GetCategoriesListWithEvents;
 
 public class GetCategoriesListWithEventsQuery : IRequest<List<CategoryEventListVm>>
 {

@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cOmqcZ20T58=",
+  "dgSpecHash": "2YlK92nQA0HutR5U1dSjhtOiUK4eTECUBqfFhvPKFAdpNHdurk1r1vxSeyvJEct7cOUKcA38s3LfSftqkdOJvA==",
   "success": true,
   "projectFilePath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Domain/TicketManagement.Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/paulocostajr/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

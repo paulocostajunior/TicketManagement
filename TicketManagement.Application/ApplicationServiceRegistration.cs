@@ -15,4 +15,3 @@ namespace TicketManagement.Application
         }
     }
 }
-

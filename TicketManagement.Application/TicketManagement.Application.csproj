@@ -18,12 +18,16 @@
     <None Remove="Exceptions\" />
     <None Remove="Contracts\Infrastructure\" />
     <None Remove="Contracts\Persistence\" />
+    <None Remove="Features\Orders\" />
+    <None Remove="Features\Orders\GetOrdersForMonth\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Contracts\Infrastructure\" />
     <Folder Include="Contracts\Persistence\" />
+    <Folder Include="Features\Orders\" />
+    <Folder Include="Features\Orders\GetOrdersForMonth\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TicketManagement.Domain\TicketManagement.Domain.csproj" />

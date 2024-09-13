@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
 using TicketManagement.Application.Contracts.Persistence;
-using TicketManagement.Application.Features.Categories.Queries.GetCategoriesList;
 using MediatR;
 
-namespace TicketManagement.Application;
+namespace TicketManagement.Application.Features.Categories.Queries.GetCategoriesListWithEvents;
 
 public class GetCategoriesListWithEventsQueryHandler : IRequestHandler<GetCategoriesListWithEventsQuery, List<CategoryEventListVm>>
 {

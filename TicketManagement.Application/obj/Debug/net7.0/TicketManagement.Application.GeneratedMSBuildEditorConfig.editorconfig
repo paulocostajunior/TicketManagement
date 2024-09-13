@@ -9,5 +9,3 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TicketManagement.Application
 build_property.ProjectDir = /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Application/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 

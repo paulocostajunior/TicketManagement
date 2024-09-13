@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+je2+C+bydQ=",
+  "dgSpecHash": "R1Ga0sMHXimtsXaOssWSBE2lM9kcboTy5PNOmeMBtgeBIhXp9LIhi4tEIziIzDsOQ+5KFZ7sbfsj9vodHkNZ5g==",
   "success": true,
   "projectFilePath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api/TicketManagement.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/paulocostajr/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/csvhelper/12.2.0/csvhelper.12.2.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.2/fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -31,10 +32,10 @@
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.configuration.binder/7.0.0/microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.1/microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.options.configurationextensions/7.0.0/microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
@@ -74,6 +75,7 @@
     "/Users/paulocostajr/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/system.reflection.typeextensions/4.4.0/system.reflection.typeextensions.4.4.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/system.resources.resourcemanager/4.3.0/system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/system.runtime.caching/5.0.0/system.runtime.caching.5.0.0.nupkg.sha512",
@@ -88,10 +90,7 @@
     "/Users/paulocostajr/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.20/microsoft.netcore.app.host.osx-arm64.7.0.20.nupkg.sha512"
+    "/Users/paulocostajr/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

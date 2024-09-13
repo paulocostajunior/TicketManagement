@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6WduIPUUJ28=",
+  "dgSpecHash": "emmYQJw72QHdAaeNxTZGXcFcL3Y7yS0ayAcAwOzTmlRNQk5oZNHMFQXhbotbmtEufJmjlpqaPPM4CTJIi6WlOw==",
   "success": true,
   "projectFilePath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Application/TicketManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -14,9 +14,7 @@
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+    "/Users/paulocostajr/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
