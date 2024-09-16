@@ -13,7 +13,10 @@ public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, Gui
     private readonly IMapper _mapper;
     private readonly IEmailService _emailService;
 
-    public CreateEventCommandHandler(IEventRepository eventRepository, IMapper mapper, IEmailService emailService)
+    public CreateEventCommandHandler(
+        IEventRepository eventRepository,
+        IMapper mapper,
+        IEmailService emailService)
     {
         _eventRepository = eventRepository;
         _mapper = mapper;

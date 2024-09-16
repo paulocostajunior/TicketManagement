@@ -1,10 +1,22 @@
 ﻿using TicketManagement.Api;
+using Serilog;
+
+Log.Information("ticketmanagement API starting");
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog((context, services, configuration) => configuration
+    .ReadFrom.Configuration(context.Configuration)
+    .ReadFrom.Services(services)
+    .Enrich.FromLogContext()
+    .WriteTo.Console(),
+    true);
 
 var app = builder
        .ConfigureServices()
        .ConfigurePipeline();
+
+app.UseSerilogRequestLogging();
 
 await app.ResetDatabaseAsync();
 
