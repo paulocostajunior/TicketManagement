@@ -2,6 +2,7 @@
 using TicketManagement.Application.Contracts.Persistence;
 using TicketManagement.Domain.Entities;
 using MediatR;
+using TicketManagement.Application.Exceptions;
 
 namespace TicketManagement.Application.Features.Events.Commands.UpdateEvent;
 
@@ -19,6 +20,14 @@ public class UpdateEventCommandHandler : IRequestHandler<UpdateEventCommand>
     public async Task Handle(UpdateEventCommand request, CancellationToken cancellationToken)
     {
         var eventToUpdate = await _eventRepository.GetByIdAsync(request.EventId);
+
+        if (eventToUpdate is null)
+        {
+            throw new NotFoundException(nameof(Event), request.EventId);
+        }
+
+        var validator = new UpdateEventCommandValidator();
+        var validatorResult = await validator.ValidateAsync(request);
 
         _mapper.Map(request, eventToUpdate, typeof(UpdateEventCommand), typeof(Event));
 

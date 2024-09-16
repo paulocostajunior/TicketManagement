@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TicketManagement.Api.Middleware;
 using TicketManagement.Application;
 using TicketManagement.Infrastructure;
 using TicketManagement.Persistence;
@@ -40,6 +41,8 @@ namespace TicketManagement.Api
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseCustomExceptionHandler();
 
             app.UseHttpsRedirection();
             app.MapControllers();

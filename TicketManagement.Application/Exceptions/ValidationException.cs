@@ -4,15 +4,15 @@ namespace TicketManagement.Application.Exceptions;
 
 public class ValidationException : Exception
 {
-    public List<string> ValidationErrors { get; set; }
+    public List<string> ValdationErrors { get; set; }
 
     public ValidationException(ValidationResult validationResult)
     {
-        ValidationErrors = new();
+        ValdationErrors = new List<string>();
 
         foreach (var validationError in validationResult.Errors)
         {
-            ValidationErrors.Add(validationError.ErrorMessage);
+            ValdationErrors.Add(validationError.ErrorMessage);
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using FluentValidation;
+﻿using FluentValidation;
 using TicketManagement.Application.Contracts.Persistence;
 
 namespace TicketManagement.Application.Features.Events.Commands.CreateEvent;
