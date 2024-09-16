@@ -1,0 +1,6 @@
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.API.IntegrationTests/bin/Debug/net7.0/CoverletSourceRootsMapping
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.API.IntegrationTests/obj/Debug/net7.0/TicketManagement.API.IntegrationTests.csproj.AssemblyReference.cache
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.API.IntegrationTests/obj/Debug/net7.0/TicketManagement.API.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.API.IntegrationTests/obj/Debug/net7.0/TicketManagement.API.IntegrationTests.AssemblyInfoInputs.cache
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.API.IntegrationTests/obj/Debug/net7.0/TicketManagement.API.IntegrationTests.AssemblyInfo.cs
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.API.IntegrationTests/obj/Debug/net7.0/TicketManagement.API.IntegrationTests.csproj.CoreCompileInputs.cache
