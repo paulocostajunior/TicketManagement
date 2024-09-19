@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hTDAWhZDZNpsmSyf7qzFWaOup0nqUZeZ2J80yOLC0XG+zoudcvQoZwt+jlvzxf/QA7JexTo9O+tHo7fxji8TZQ==",
+  "dgSpecHash": "BSpiRU6Y0Hz7rjitzptM35ss0vRHha7KUgq3MJuy9O1LFbBYMVLixQ4b8YnGeDsGuX4clwbIPpdhGFneyNJjBQ==",
   "success": true,
   "projectFilePath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/TicketManagement.Persistence.csproj",
   "expectedPackageFiles": [

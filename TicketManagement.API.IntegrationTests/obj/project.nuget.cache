@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C3cV5MFG857Ba+PWmvKTyplvVbMMsB5P797Ga2miSK4cS0zKGesOTKDhrSaI+/voYgU9nFNkCRT/9Ao/frEGig==",
+  "dgSpecHash": "f3x97sF67i+rpneSqmMYVFklVCu5JA7zvUtXS39j7KKkju6tJq2fBZZWwDGIcrsKxymQ2Z3fn1T7f/oV1MUhiA==",
   "success": true,
   "projectFilePath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.API.IntegrationTests/TicketManagement.API.IntegrationTests.csproj",
   "expectedPackageFiles": [

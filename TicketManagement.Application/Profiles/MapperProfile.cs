@@ -7,7 +7,7 @@ using TicketManagement.Application.Features.Events.Queries.GetEventsDetail;
 using TicketManagement.Application.Features.Events.Queries.GetEventsList;
 using TicketManagement.Domain.Entities;
 
-namespace TicketManagement.Application;
+namespace TicketManagement.Application.Profiles;
 
 public class MapperProfile : Profile
 {

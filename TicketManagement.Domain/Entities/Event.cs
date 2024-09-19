@@ -1,11 +1,9 @@
-﻿namespace TicketManagement.Domain.Entities;
+﻿using TicketManagement.Domain.Entities.Common;
 
-public class Event
+namespace TicketManagement.Domain.Entities;
+
+public class Event : AuditableEntity
 {
-	public Event()
-	{
-	}
-
     public Guid EventId { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }

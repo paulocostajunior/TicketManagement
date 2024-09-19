@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kBCSzeG+UHSsTfOptgQm7Z3qVWFQEnb/DsfA93HgXSSOg1k4UUU2/r3oR9SLkeQpJltVAHFC16+LF8ASf9OYRg==",
+  "dgSpecHash": "GMa/S2vE7nfOYC+G5l7jEnBk9O+IBJ7SuS6rehHPQgSIlPJLSK1QxayUrn4PuZvQmb1C3pKpcyCi+9PldDZWLg==",
   "success": true,
   "projectFilePath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/TicketManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,9 @@
     "/Users/paulocostajr/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.configuration.binder/7.0.0/microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.1/microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.options.configurationextensions/7.0.0/microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",

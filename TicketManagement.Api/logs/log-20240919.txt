@@ -1,0 +1,10 @@
+2024-09-19 15:45:57.630 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-19 15:45:57.645 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-19 15:45:57.646 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-19 15:45:57.646 +01:00 [INF] Hosting environment: Development
+2024-09-19 15:45:57.646 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api
+2024-09-19 15:47:42.330 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-19 15:47:42.345 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-19 15:47:42.346 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-19 15:47:42.346 +01:00 [INF] Hosting environment: Development
+2024-09-19 15:47:42.346 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api

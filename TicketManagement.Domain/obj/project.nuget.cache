@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2YlK92nQA0HutR5U1dSjhtOiUK4eTECUBqfFhvPKFAdpNHdurk1r1vxSeyvJEct7cOUKcA38s3LfSftqkdOJvA==",
+  "dgSpecHash": "XWbSQ1luAEkufZPpYyY5pb/GTDZEyx/Am8mR6e8LTbvpLd4XJ3F4FGSjkF1oKrtb45zVaULLPoAYTZ7gdWkvsA==",
   "success": true,
   "projectFilePath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Domain/TicketManagement.Domain.csproj",
   "expectedPackageFiles": [],

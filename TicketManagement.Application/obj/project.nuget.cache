@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "emmYQJw72QHdAaeNxTZGXcFcL3Y7yS0ayAcAwOzTmlRNQk5oZNHMFQXhbotbmtEufJmjlpqaPPM4CTJIi6WlOw==",
+  "dgSpecHash": "QHUWTvEmLUDwk6n6YiS84D5BgvaanvcwwSjKYe1lAzefPp3nG7QDB7ZdQMcIA6wAIB6PsXGZovPP+NlWjS1ZqQ==",
   "success": true,
   "projectFilePath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Application/TicketManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -11,10 +11,12 @@
     "/Users/paulocostajr/.nuget/packages/mediatr/12.4.0/mediatr.12.4.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/paulocostajr/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "/Users/paulocostajr/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/paulocostajr/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

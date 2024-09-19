@@ -4,6 +4,7 @@ using TicketManagement.Domain.Entities;
 using MediatR;
 using TicketManagement.Application.Contracts.Infrastructure;
 using TicketManagement.Application.Models.Mail;
+using Microsoft.Extensions.Logging;
 
 namespace TicketManagement.Application.Features.Events.Commands.CreateEvent;
 
@@ -12,15 +13,18 @@ public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, Gui
     private readonly IEventRepository _eventRepository;
     private readonly IMapper _mapper;
     private readonly IEmailService _emailService;
+    private readonly ILogger<CreateEventCommandHandler> _logger;
 
     public CreateEventCommandHandler(
         IEventRepository eventRepository,
         IMapper mapper,
-        IEmailService emailService)
+        IEmailService emailService,
+        ILogger<CreateEventCommandHandler> logger)
     {
         _eventRepository = eventRepository;
         _mapper = mapper;
         _emailService = emailService;
+        _logger = logger;
     }
 
     public async Task<Guid> Handle(CreateEventCommand request, CancellationToken cancellationToken)
@@ -51,6 +55,7 @@ public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, Gui
         catch (Exception ex)
         {
             //dont stop the app if it errors out
+            _logger.LogError($"Mailing about event {@event.EventId} failed due to an error with the mail service: {ex.Message}");
         }
 
         return @event.EventId;

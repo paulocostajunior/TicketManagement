@@ -1,12 +1,9 @@
-﻿namespace TicketManagement.Domain.Entities;
+﻿using TicketManagement.Domain.Entities.Common;
 
-public class Order
+namespace TicketManagement.Domain.Entities;
+
+public class Order : AuditableEntity
 {
-
-    public Order()
-    {
-    }
-
     public Guid Id { get; set; }
     public Guid UserId { get; set; }
     public int OrderTotal { get; set; }

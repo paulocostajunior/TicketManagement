@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A791319A-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.API.IntegrationTests", "TicketManagement.API.IntegrationTests\TicketManagement.API.IntegrationTests.csproj", "{FCEE386C-4761-4BA3-9D01-7C62353B3FEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Application.UnitTests", "TicketManagement.Application.UnitTests\TicketManagement.Application.UnitTests.csproj", "{0BB435EB-1D5C-49D9-9C11-03C6AB1A4569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Persistence.IntegrationTests", "TicketManagement.Persistence.IntegrationTests\TicketManagement.Persistence.IntegrationTests.csproj", "{54B25FF5-DE87-44BF-9FC3-57769F16C77C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,14 @@ Global
 		{FCEE386C-4761-4BA3-9D01-7C62353B3FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCEE386C-4761-4BA3-9D01-7C62353B3FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCEE386C-4761-4BA3-9D01-7C62353B3FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB435EB-1D5C-49D9-9C11-03C6AB1A4569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB435EB-1D5C-49D9-9C11-03C6AB1A4569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB435EB-1D5C-49D9-9C11-03C6AB1A4569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB435EB-1D5C-49D9-9C11-03C6AB1A4569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B25FF5-DE87-44BF-9FC3-57769F16C77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B25FF5-DE87-44BF-9FC3-57769F16C77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B25FF5-DE87-44BF-9FC3-57769F16C77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B25FF5-DE87-44BF-9FC3-57769F16C77C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +84,7 @@ Global
 		{BD1DE4E6-4B26-4D32-88AF-9C253CA756A1} = {8A932B6A-F2DA-4045-A19F-9F22D436FC2C}
 		{86AFEFAF-A26A-44FF-8CF7-BFB2B7E11703} = {D91E2761-9E8A-42B9-BEA6-A5188FC4D2D7}
 		{FCEE386C-4761-4BA3-9D01-7C62353B3FEB} = {A791319A-EBE6-4F21-8E9D-99EB7C928B19}
+		{0BB435EB-1D5C-49D9-9C11-03C6AB1A4569} = {A791319A-EBE6-4F21-8E9D-99EB7C928B19}
+		{54B25FF5-DE87-44BF-9FC3-57769F16C77C} = {A791319A-EBE6-4F21-8E9D-99EB7C928B19}
 	EndGlobalSection
 EndGlobal
