@@ -30,6 +30,9 @@
               "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Application/TicketManagement.Application.csproj": {
                 "projectPath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Application/TicketManagement.Application.csproj"
               },
+              "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/TicketManagement.Identity.csproj": {
+                "projectPath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/TicketManagement.Identity.csproj"
+              },
               "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/TicketManagement.Infrastructure.csproj": {
                 "projectPath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Infrasctructure/TicketManagement.Infrastructure.csproj"
               },
@@ -233,6 +236,101 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/TicketManagement.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/TicketManagement.Identity.csproj",
+        "projectName": "TicketManagement.Identity",
+        "projectPath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/TicketManagement.Identity.csproj",
+        "packagesPath": "/Users/paulocostajr/.nuget/packages/",
+        "outputPath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/paulocostajr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Application/TicketManagement.Application.csproj": {
+                "projectPath": "/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Application/TicketManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

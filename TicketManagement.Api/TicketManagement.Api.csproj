@@ -31,12 +31,14 @@
     <None Remove="Controllers\" />
     <None Remove="Utility\" />
     <None Remove="Middleware\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Controllers\" />
     <Folder Include="Utility\" />
     <Folder Include="Middleware\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TicketManagement.Application\TicketManagement.Application.csproj">
@@ -46,6 +48,9 @@
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
     <ProjectReference Include="..\TicketManagement.Infrasctructure\TicketManagement.Infrastructure.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\TicketManagement.Identity\TicketManagement.Identity.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

@@ -21,6 +21,8 @@
     <None Remove="Contracts\Persistence\" />
     <None Remove="Features\Orders\" />
     <None Remove="Features\Orders\GetOrdersForMonth\" />
+    <None Remove="Models\Authentication\" />
+    <None Remove="Contracts\Identity\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
@@ -29,6 +31,8 @@
     <Folder Include="Contracts\Persistence\" />
     <Folder Include="Features\Orders\" />
     <Folder Include="Features\Orders\GetOrdersForMonth\" />
+    <Folder Include="Models\Authentication\" />
+    <Folder Include="Contracts\Identity\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TicketManagement.Domain\TicketManagement.Domain.csproj" />

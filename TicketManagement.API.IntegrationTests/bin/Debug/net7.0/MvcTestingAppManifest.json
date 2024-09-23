@@ -1,0 +1,5 @@
+{
+  "TicketManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/paulocostajr\/Code\/dotnet\/TicketManagement\/TicketManagement.Application",
+  "TicketManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/paulocostajr\/Code\/dotnet\/TicketManagement\/TicketManagement.Domain",
+  "TicketManagement.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/paulocostajr\/Code\/dotnet\/TicketManagement\/TicketManagement.Persistence"
+}

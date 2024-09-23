@@ -1,0 +1,96 @@
+2024-09-23 17:48:52.125 +01:00 [WRN] No XML encryptor configured. Key {557c89dc-0ed1-43ee-89d3-3f7d8b48aca1} may be persisted to storage in unencrypted form.
+2024-09-23 17:48:52.322 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-23 17:48:52.323 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-23 17:48:52.323 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 17:48:52.323 +01:00 [INF] Hosting environment: Development
+2024-09-23 17:48:52.323 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api
+2024-09-23 17:54:35.278 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-23 17:54:35.288 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-23 17:54:35.289 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 17:54:35.289 +01:00 [INF] Hosting environment: Development
+2024-09-23 17:54:35.289 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api
+2024-09-23 17:55:02.928 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at TicketManagement.Identity.IdentityServiceExtensions.<>c__DisplayClass0_0.<AddIdentityServices>b__2(JwtBearerOptions o) in /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/IdentityServiceExtensions.cs:line 39
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-23 17:55:02.979 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at TicketManagement.Identity.IdentityServiceExtensions.<>c__DisplayClass0_0.<AddIdentityServices>b__2(JwtBearerOptions o) in /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/IdentityServiceExtensions.cs:line 39
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-23 17:55:03.020 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at TicketManagement.Identity.IdentityServiceExtensions.<>c__DisplayClass0_0.<AddIdentityServices>b__2(JwtBearerOptions o) in /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/IdentityServiceExtensions.cs:line 39
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-23 17:55:03.022 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at TicketManagement.Identity.IdentityServiceExtensions.<>c__DisplayClass0_0.<AddIdentityServices>b__2(JwtBearerOptions o) in /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/IdentityServiceExtensions.cs:line 39
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-23 17:55:40.325 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-23 17:55:40.335 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-23 17:55:40.335 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 17:55:40.336 +01:00 [INF] Hosting environment: Development
+2024-09-23 17:55:40.336 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api
+2024-09-23 17:58:42.842 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-23 17:58:42.854 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-23 17:58:42.855 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 17:58:42.855 +01:00 [INF] Hosting environment: Development
+2024-09-23 17:58:42.855 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api
+2024-09-23 17:59:53.952 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-23 17:59:53.964 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-23 17:59:53.964 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 17:59:53.964 +01:00 [INF] Hosting environment: Development
+2024-09-23 17:59:53.964 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api
+2024-09-23 18:23:38.685 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-23 18:23:38.695 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-23 18:23:38.696 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 18:23:38.696 +01:00 [INF] Hosting environment: Development
+2024-09-23 18:23:38.696 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api
+2024-09-23 18:24:48.731 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-23 18:24:48.741 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-23 18:24:48.742 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 18:24:48.742 +01:00 [INF] Hosting environment: Development
+2024-09-23 18:24:48.742 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api

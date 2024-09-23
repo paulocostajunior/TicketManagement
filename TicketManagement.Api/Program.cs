@@ -1,16 +1,18 @@
-﻿using TicketManagement.Api;
+﻿using GloboTicket.TicketManagement.Api;
+
 using Serilog;
 
-Log.Information("ticketmanagement API starting");
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .CreateBootstrapLogger();
+
+Log.Information("GloboTicket API starting");
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseSerilog((context, services, configuration) => configuration
-    .ReadFrom.Configuration(context.Configuration)
-    .ReadFrom.Services(services)
-    .Enrich.FromLogContext()
-    .WriteTo.Console(),
-    true);
+builder.Host.UseSerilog((context, loggerConfiguration) => loggerConfiguration
+     .WriteTo.Console()
+     .ReadFrom.Configuration(context.Configuration));
 
 var app = builder
        .ConfigureServices()
@@ -21,3 +23,5 @@ app.UseSerilogRequestLogging();
 await app.ResetDatabaseAsync();
 
 app.Run();
+
+public partial class Program { }
