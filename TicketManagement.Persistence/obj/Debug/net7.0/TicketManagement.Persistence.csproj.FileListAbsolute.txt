@@ -1,4 +1,5 @@
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/bin/Debug/net7.0/TicketManagement.Persistence.deps.json
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/bin/Debug/net7.0/TicketManagement.Persistence.runtimeconfig.json
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/bin/Debug/net7.0/TicketManagement.Persistence.dll
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/bin/Debug/net7.0/TicketManagement.Persistence.pdb
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/bin/Debug/net7.0/TicketManagement.Application.dll
@@ -10,10 +11,9 @@
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/TicketManagement.Persistence.AssemblyInfoInputs.cache
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/TicketManagement.Persistence.AssemblyInfo.cs
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/TicketManagement.Persistence.csproj.CoreCompileInputs.cache
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/TicketManagement.Persistence.csproj.CopyComplete
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/TicketManagement.Persistence.dll
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/refint/TicketManagement.Persistence.dll
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/TicketManagement.Persistence.pdb
-/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/ref/TicketManagement.Persistence.dll
-/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/bin/Debug/net7.0/TicketManagement.Persistence.runtimeconfig.json
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/TicketManagement.Persistence.genruntimeconfig.cache
-/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/TicketManagement.Persistence.csproj.CopyComplete
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Persistence/obj/Debug/net7.0/ref/TicketManagement.Persistence.dll

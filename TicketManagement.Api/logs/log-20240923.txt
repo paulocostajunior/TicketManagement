@@ -94,3 +94,8 @@ System.ArgumentNullException: Value cannot be null. (Parameter 's')
 2024-09-23 18:24:48.742 +01:00 [INF] Application started. Press Ctrl+C to shut down.
 2024-09-23 18:24:48.742 +01:00 [INF] Hosting environment: Development
 2024-09-23 18:24:48.742 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api
+2024-09-23 18:28:52.405 +01:00 [INF] Now listening on: https://localhost:7272
+2024-09-23 18:28:52.415 +01:00 [INF] Now listening on: http://localhost:5272
+2024-09-23 18:28:52.415 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 18:28:52.415 +01:00 [INF] Hosting environment: Development
+2024-09-23 18:28:52.415 +01:00 [INF] Content root path: /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Api

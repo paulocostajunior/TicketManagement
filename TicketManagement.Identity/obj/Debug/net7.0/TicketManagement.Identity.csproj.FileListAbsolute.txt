@@ -1,8 +1,3 @@
-/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.csproj.AssemblyReference.cache
-/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.GeneratedMSBuildEditorConfig.editorconfig
-/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.AssemblyInfoInputs.cache
-/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.AssemblyInfo.cs
-/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.csproj.CoreCompileInputs.cache
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/bin/Debug/net7.0/TicketManagement.Identity.deps.json
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/bin/Debug/net7.0/TicketManagement.Identity.dll
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/bin/Debug/net7.0/TicketManagement.Identity.pdb
@@ -10,6 +5,11 @@
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/bin/Debug/net7.0/TicketManagement.Domain.dll
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/bin/Debug/net7.0/TicketManagement.Application.pdb
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/bin/Debug/net7.0/TicketManagement.Domain.pdb
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.csproj.AssemblyReference.cache
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.AssemblyInfoInputs.cache
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.AssemblyInfo.cs
+/Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.csproj.CoreCompileInputs.cache
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.csproj.CopyComplete
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/TicketManagement.Identity.dll
 /Users/paulocostajr/Code/dotnet/TicketManagement/TicketManagement.Identity/obj/Debug/net7.0/refint/TicketManagement.Identity.dll
